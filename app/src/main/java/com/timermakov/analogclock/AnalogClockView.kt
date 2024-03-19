@@ -18,21 +18,25 @@ class AnalogClockView(context: Context, attrs: AttributeSet? = null) : View(cont
         color = Color.BLACK
         strokeWidth = 20f
         style = Paint.Style.STROKE
+        isAntiAlias = true
     }
     private val centerPaint = Paint().apply {
         color = Color.BLACK
         strokeWidth = 10f
         style = Paint.Style.FILL
+        isAntiAlias = true
     }
     private val smallDotPaint = Paint().apply {
         color = Color.BLACK
         strokeWidth = 4f
         style = Paint.Style.FILL
+        isAntiAlias = true
     }
     private val bigDotPaint = Paint().apply {
         color = Color.BLACK
         strokeWidth = 2f
         style = Paint.Style.FILL
+        isAntiAlias = true
     }
     private val textPaint = Paint().apply {
         color = Color.BLACK
